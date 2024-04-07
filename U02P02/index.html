@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    table, td, th {
+        border:1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+    table {
+        width: 100%;
+    }
+    </style>
+    <title>Pagina Principal</title>
+    <table>
+        <thead>
+            <tr>
+                <th>Colores Primarios</th>
+                <th>Colores Secundarios</th>
+                <th>Colores Adicionales</th>
+                <th>Otros Colores</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th style="background-color: red;"></th>
+                <th style="background-color: orange;"></th>
+                <th style="background-color: turquoise;"></th>
+                <th style="background-color: hotpink;"></th>
+            </tr>
+            <tr>
+                <th style="background-color: yellow;"></th>
+                <th style="background-color: green;"></th>
+                <th style="background-color: grey;"></th>
+                <th style="background-color: teal;"></th>
+            </tr>
+            <tr>
+                <th style="background-color: blue;"></th>
+                <th style="background-color: purple;"></th>
+                <th style="background-color: black;"></th>
+                <th style="background-color: brown;"></th>
+            </tr>
+        </tbody>
+    </table><br>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+                <th>Columna 3</th>
+                <th colspan="2">Columna 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">F1 y F2</th>
+                <th>F1 C2</th>
+                <th rowspan="3">F 1,2 y 3 - C3</th>
+                <th><a href="https://futbollibre.futbol/">FutbolLibre</a></th>
+                <th>F1 C4</th>
+            </tr>
+            <tr>
+                <th>F2 C2</th>
+                <th><a href="https://www.mercadolibre.com.ar/">MercadoLibre</a></th>
+                <th>F2 C4</th>
+            </tr>
+            <tr>
+                <th rowspan="2" colspan="2">F3 y F4 - C1 y C2</th>
+                <th><a href="https://www.twitch.tv/">Twitch</a></th>
+                <th rowspan="2" colspan="2">F3 y 4 C4</th>
+            </tr>
+            <tr>
+                <th>F4 C3</th>
+                <th><a href="https://www.youtube.com/">YouTube</a></th>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+
+
+</head>
+<body>
+    
+</body>
+</html>
