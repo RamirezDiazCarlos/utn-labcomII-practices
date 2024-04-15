@@ -1,0 +1,20 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    width: max-content;
+    gap: 3px;
+}
+
+ul li {
+    background-color:  rgba(123,198,199,0.8);
+}
+
+ul a, ul a:link {
+    font-family: sans-serif;
+    display: block;
+    text-decoration: none;
+    padding: 7px 10px;
+
+}

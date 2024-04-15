@@ -1,0 +1,12 @@
+.card {
+    width: 400px;
+    height: 300px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-t {
+    flex: 1;
+    
+}
