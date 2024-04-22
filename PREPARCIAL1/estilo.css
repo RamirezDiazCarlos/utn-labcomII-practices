@@ -134,7 +134,7 @@ section.main-image>div {
 
 .carreras {
     display: flex;
-    
+    flex-wrap: wrap;
     justify-content: space-around;
     gap: 3%;
 }
